@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+header {
+    background-color: #E1BBC9;
+    color: black;
+    border-radius: 10px;
+}
+
+body {
+    max-width: 400px;
+    text-align: center;
+    font-family: 'Karla', sans-serif, sans-serif;
+}
+
+section {
+    background-color: #FEEEC3;
+    color: black;
+    border-radius: 10px;
+}
+
+section h3 {
+    background-color: #045b3e;
+    padding: 1rem;
+    color: white;
+}
+
+img {
+    max-width: 300px;
+}
+
+footer {
+    background-color: #E1BBC9;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}

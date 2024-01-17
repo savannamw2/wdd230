@@ -1,0 +1,45 @@
+@media(min-width: 800px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        row-gap: 10px;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 950px;
+        text-align: center;
+    }
+
+    section {
+        max-width: 300px;
+
+    }
+
+    section img {
+        max-width: 300px;
+    }
+
+    #card2 img {
+
+        max-width: 300px;
+    }
+
+    #card3 img {
+
+        max-width: 300px;
+    }
+
+    #card3 {
+        grid-column: 3/4;
+    }
+
+    footer {
+        width: 950px;
+        text-align: center;
+    }
+
+
+
+}
