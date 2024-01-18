@@ -11,9 +11,10 @@ body {
     display: flex;
     background-color: #FFC2EE;
     color: black;
+    align-items: center;
     justify-content: center;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 nav {

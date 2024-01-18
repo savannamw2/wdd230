@@ -1,0 +1,58 @@
+@media screen and (min-width: 500px) {
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Source+Code+Pro&display=swap');
+
+    body {
+        margin: auto;
+        padding: .5rem;
+        font-family: Arsenal, Source Code Pro, Arial, sans-serif;
+        font-size: 16px;
+    }
+
+    .header {
+        display: flex;
+        background-color: #FFC2EE;
+        color: black;
+        justify-content: center;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    nav {
+        position: absolute;
+        left: 40%;
+        font-family: Source Code Pro;
+    }
+
+    .card {
+        background-color: #A9E4EF;
+        border: 1px solid #000;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding-bottom: 1rem;
+        width: 80%;
+        margin: 0.5rem;
+    }
+
+    .profile-picture {
+        position: left;
+        box-shadow: 3px 5px 32px 8px rgba(0, 0, 0, 0.36);
+
+    }
+
+    .main {
+        padding: 1rem;
+    }
+
+
+    .footer {
+        background-color: #FFC2EE;
+        color: black;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: .9rem;
+    }
+
+
+}
