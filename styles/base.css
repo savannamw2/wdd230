@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Source+Code+Pro&display=swap');
 
 body {
-    margin: auto;
-    padding: .5rem;
     font-family: Arsenal, Source Code Pro, Arial, sans-serif;
     font-size: 16px;
 }
