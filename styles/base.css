@@ -57,3 +57,9 @@ nav {
 a {
     text-decoration: none;
 }
+
+.google-maps {
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+}
