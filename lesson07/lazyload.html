@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Images</title>
+    <meta name="author" content="Savanna Whittaker" />
+    <meta name="description" content="WDD 230 - Web Frontend Development
+        Savanna Whittaker
+        W07 Lazy load Images" />
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Load</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="http://placekitten.com/400/700" alt="Placeholder Kitten" loading="lazy" width="400" height="600">
+        </picture>
+        <picture><img src="http://placekitten.com/400/800" alt="Placeholder Kitten" loading="lazy" width="400"
+                height="600"></picture>
+        <picture><img src="http://placekitten.com/400/650" alt="Placeholder Kitten" loading="lazy" width="400"
+                height="600"></picture>
+        <picture><img src="http://placekitten.com/400/600" alt="Placeholder Kitten" loading="lazy" width="400"
+                height="600"></picture>
+        <picture><img src="http://placekitten.com/400/500" alt="Placeholder Kitten" loading="lazy" width="400"
+                height="600"></picture>
+        <picture><img src="http://placekitten.com/400/750" alt="Placeholder Kitten" loading="lazy" width="400"
+                height="600"></picture>
+    </main>
+    <footer class="footer">
+        <p id="copyright-info">&copy; <span id="currentYear"> </span> | Savanna Whittaker | BYU-IDAHO</p>
+        <p id="lastModified">Last modified: <span id="modifiedDate"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+
+</html>
