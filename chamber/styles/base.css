@@ -102,6 +102,15 @@ header {
 
 }
 
+footer {
+    background-color: #B7D6F6;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .hamburgermenu {
     display: block;
     text-align: center;
