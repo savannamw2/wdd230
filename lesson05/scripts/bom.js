@@ -4,7 +4,7 @@ const list = document.querySelector("#list");
 
 
 
-// event listeners
+// event listener
 button.addEventListener("click", () => {
     if (input.value != '') {
         console.log("Add Chapter button clicked!");
