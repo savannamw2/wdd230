@@ -37,32 +37,35 @@ nav {
 
 }
 
-.temple {
-    margin-top: 50px;
+.hero {
+    margin: 10px auto;
+    margin-top: 90px;
     position: relative;
-    justify-self: center;
-    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 300px;
 }
 
-.image {
-    margin-top: 50px;
-    grid-column: 1/3;
-    grid-row: 1/2;
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.image img {
-    max-width: 100%;
-}
-
-.label {
+.herolabel {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    color: black;
-    font-size: xx-small;
-    background: radial-gradient(#bccccc, pink);
-    padding: 10px;
-    border-radius: 10px;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, pink);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .main {
