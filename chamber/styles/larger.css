@@ -105,6 +105,10 @@
         color: black;
     }
 
+    .title {
+        text-align: center;
+    }
+
     .general-information {
         margin-top: 50px;
         margin-bottom: 20px;
