@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --text-color: black;
+}
+
+body {
+    font-family: Arsenal, Source Code Pro, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    background-color: #FFC2EE;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    position: absolute;
+    left: 40%;
+    font-family: Source Code Pro;
+}
+
+.card {
+    background-color: #A9E4EF;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1rem;
+    margin: 0.5rem;
+}
+
+.profile-picture {
+    margin-left: -20px;
+    box-shadow: 3px 5px 32px 8px rgba(0, 0, 0, 0.36);
+
+}
+
+main {
+    padding-top: 10%;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 500px;
+    justify-content: center;
+}
+
+fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--secondary-color);
+    padding: .5rem 2%;
+}
+
+legend {
+    color: var(--primary-color);
+}
+
+label {
+    color: var(--text-color);
+}
+
+footer {
+    background-color: #FFC2EE;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: .9rem;
+}
