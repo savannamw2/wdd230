@@ -181,12 +181,12 @@
         margin-left: 20px;
     }
 
-    .weather {
-        grid-column: 2/3;
-        margin: auto;
-        width: 100%;
+    .current-weather-section .weather-card {
         background-color: #CCD5AE;
+        padding: 20px;
     }
+
+
 
     .spotlight {
         display: grid;

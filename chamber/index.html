@@ -81,39 +81,58 @@
                         🕒 1:00 PM - 3:00 PM
                     </p>
                 </div>
-                <div class="weather">
-                    <h2>Weather</h2>
-                </div>
+                <section id="current-weather-section" class="current-weather-section">
+                    <div class="weather-container">
+                        <div class="weather-card">
+                            <h2>Weather Update</h2>
+                            <div class="current-weather" id="current-weather">
+                                <h4>Current Weather</h4>
+                                <div class="details">
+                                    <p>Loading...</p>
+                                    <p>Temperature: Loading...</p>
+                                </div>
+                            </div>
+                            <div class="banner-container">
+                                <div id="meetAndGreetBanner" class="banner" style="display: none;">
+                                    <p>📢Let's Meet and Greet on Tuesday at 6:00 p.m!</p>
+                                    <button id="closeBannerButton" class="close-button">❌</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="spotlight">
-                <div class="business-1">
-                    <h2>Grocery Outlet Bargain Market</h2>
-                    <img id="gobm" src="images/grocery-outlet.jpeg" alt="Grocery Outlet Bargain Market">
-                    <p>Find your groceries for unbeatable prices at this locally owned store.</p>
-                </div>
-                <div class="business-2">
-                    <h2>Port of Camas-Washougal</h2>
-                    <img id="bigfoot" src="images/bigfoot.jpeg" alt="Port fo Camas Washougal">
-                    <p>Come spot Bigfoot at Columbia River park.</p>
-                </div>
-                <div class="business-3">
-                    <h2>K&M Drive-In</h2>
-                    <img id="km" src="images/k&m.jpeg" alt="K&M Drive-In">
-                    <p>Experience the best burgers and shakes in town.</p>
-                </div>
-            </div>
+    </div>
+    <div class="spotlight">
+        <div class="business-1">
+            <h2>Grocery Outlet Bargain Market</h2>
+            <img id="gobm" src="images/grocery-outlet.jpeg" alt="Grocery Outlet Bargain Market">
+            <p>Find your groceries for unbeatable prices at this locally owned store.</p>
+        </div>
+        <div class="business-2">
+            <h2>Port of Camas-Washougal</h2>
+            <img id="bigfoot" src="images/bigfoot.jpeg" alt="Port fo Camas Washougal">
+            <p>Come spot Bigfoot at Columbia River park.</p>
+        </div>
+        <div class="business-3">
+            <h2>K&M Drive-In</h2>
+            <img id="km" src="images/k&m.jpeg" alt="K&M Drive-In">
+            <p>Experience the best burgers and shakes in town.</p>
+        </div>
+    </div>
 
-        </main>
+    </main>
 
-        <footer class="footer">
-            <p id="copyright-info">&copy; <span id="currentYear"> </span> Washogual Chamber of Commerce </p>
-            <p> Savanna Whittaker | WDD230 </p>
-            <p id="lastModified">Last modified: <span id="modifiedDate"></span></p>
-        </footer>
-        <script src="scripts/modifieddates.js"></script>
-        <script src="scripts/hamburgermenu.js"></script>
-        <script src="scripts/dark-mode.js"></script>
-        <script src="scripts/img-size.js"></script>
+    <footer class="footer">
+        <p id="copyright-info">&copy; <span id="currentYear"> </span> Washogual Chamber of Commerce </p>
+        <p> Savanna Whittaker | WDD230 </p>
+        <p id="lastModified">Last modified: <span id="modifiedDate"></span></p>
+    </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/modifieddates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/img-size.js"></script>
     </div>
 </body>
 
