@@ -13,7 +13,7 @@ const createWeatherCard = (weatherItem) => {
     return `<li class="card">
                 <h3>${weatherItem.date}</h3>
                 <div class="details">
-                    <p>${weatherItem.temp}°C - ${weatherItem.description}</p>
+                    <p>${weatherItem.temp}°F - ${weatherItem.description}</p>
                     <img src="https://openweathermap.org/img/wn/${weatherItem.icon}.png" alt="Weather Icon">
                 </div>
             </li>`;
@@ -37,10 +37,41 @@ const updateWeatherData = () => {
                 </div>`;
         })
         .catch((error) => console.error("Error fetching current weather:", error));
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Washougal,US&appid=${API_KEY}`)
+        .then((response) => response.json())
+        .then((data) => {
+            const forecast = data.list.filter((item, index) => index % 8 === 0).slice(0, 3);
+            weatherCardsDiv.innerHTML = forecast.map((item) => {
+                const weatherItem = {
+                    date: item.dt_txt.split(" ")[0],
+                    temp: (((item.main.temp - 273.15) * 9) / 5 + 32).toFixed(2),
+
+                    description: item.weather[0].description,
+                    icon: item.weather[0].icon
+                };
+                return createWeatherCard(weatherItem);
+            }).join("");
+        })
+        .catch((error) => console.error("Error fetching weather forecast:", error));
+
+
 };
+
 
 updateWeatherData();
 toggleBannerVisibility();
+
+const isBannerDay = () => {
+    const today = new Date();
+    const dayOfWeek = today.getDay();
+    return dayOfWeek >= 1 && dayOfWeek <= 3;
+};
+
+// toggle the banner visibility
+const toggleBanner = () => {
+    banner.style.display = isBannerDay() ? "block" : "none";
+};
+
 
 const closeButton = document.getElementById("closeBannerButton");
 
