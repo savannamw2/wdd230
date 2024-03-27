@@ -1,0 +1,85 @@
+{
+    "companies": [
+        {
+            "name": "Grocery Outlet Bargain Market",
+            "address": "3308 NE Third Ave Camas, WA 98607 United States",
+            "phone": "+13603350520",
+            "website": "https://www.groceryoutlet.com",
+            "membership_level": "Super-Saver",
+            "imageurl": "images/grocery-outlet.jpeg",
+            "other_information": "Locally owned."
+        },
+        {
+            "name": "K&M Drive-In",
+            "address": "3414 NE Third Ave Camas, WA 98607 United States",
+            "phone": "+13602105803",
+            "membership_level": "Gold",
+            "website": "https://www.kmdrivein.com",
+            "imageurl": "images/k&m.jpeg",
+            "other_information": "Serving Camas/Washougal Area for 11 years."
+        },
+        {
+            "name": "The Waterfront at Parker's Landing",
+            "address": "222 S A St Washougal, WA 98671 United States",
+            "phone": "N/A",
+            "website": "https://www.portcw.com",
+            "imageurl": "images/bigfoot.jpeg",
+            "membership_level": "N/A",
+            "other_information": "Beautifully paved nature walk."
+        },
+        {
+            "name": "Puffin Cafe",
+            "address": "14 S A St, Washougal, WA 98671 United States",
+            "phone": "+1(360) 335-1522",
+            "website": "https://www.puffincafe.com",
+            "imageurl": "images/puffincafe.jpeg",
+            "membership_level": "N/A",
+            "other_information": "Located along the Columbia River in port Camas-Washougal."
+        },
+        {
+            "name": "Jimbo's Deli Mart",
+            "address": "165 C St, Washougal, WA 98671 United States",
+            "phone": "+1(360) 835-3383",
+            "website": "N/A",
+            "imageurl": "images/jimbos.jpeg",
+            "membership_level": "N/A",
+            "other_information": "Grab bait and tackle here."
+        },
+        {
+            "name": "Don Pedro",
+            "address": "63545 NE 3rd Avenue Camas, WA 98607",
+            "phone": "+639684554125",
+            "website": "https://www.facebook.com/pages/Don-Pedro-Taqueria/468559433201557?paipv=0&eav=Afae5OGamhN9MYu7snfywV5B2BZh13vGXBcd6KTTkdnFysGB4FJ3yRgYeUC7CRLsQ8E&_rdr",
+            "imageurl": "images/pedro.jpeg",
+            "membership_level": "N/A",
+            "other_information": "Best Authentic Mexican Food."
+        },
+        {
+            "name": "Pendleton Woolen Mill",
+            "address": "2 Pendleton Way Washougal, WA 98671",
+            "phone": "+1800-760-4844",
+            "website": "https://www.pendleton-usa.com/",
+            "imageurl": "images/pendleton.webp",
+            "membership_level": "Bronze",
+            "other_information": "Family Owned luxury fabric store."
+        },
+        {
+            "name": "Bi-Mart",
+            "address": "3003 Addy St Washougal, WA 98671",
+            "phone": "+1360-335-9700",
+            "website": "https://www.bimart.com/",
+            "imageurl": "images/bimart.jpeg",
+            "membership_level": "Bronze",
+            "other_information": "COnvientient shopping and huge savings."
+        },
+        {
+            "name": "Best Western",
+            "address": "121 S 2nd Street Washougal, WA 98671",
+            "phone": "+1360-835-9292",
+            "website": "https://www.bestwestern.com/content/best-western/en_US/booking-path/hotel-details.48172.html",
+            "imageurl": "images/bestwestern.jpeg",
+            "membership_level": "Gold",
+            "other_information": "Has views of Columbia River and free breakfast."
+        }
+    ]
+}

@@ -29,7 +29,7 @@
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
-                <img class="logo" src="images/Washogula-Logo.png"
+                <img class="logo" src="images/Washogula-Logo.webp"
                     alt="Washougal Commerce Logo Property of: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cityofwashougal.us%2F&psig=AOvVaw3X8iusOu0zpSgbnJNPlOCo&ust=1709062701337000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOCkvOvgyYQDFQAAAAAdAAAAABAJ">
             </a>
             <nav>
@@ -57,15 +57,21 @@
         </div>
         <main>
             <h1 class="title">Washougal Chamber of Commerce</h1>
-            <div id="hero">
-                <div id="hero-box">
-                    <img id="hero-img" src="images/hero-img.png" alt="Washougal Scencery Hero Image">
+            <div class="hero">
+                <picture>
+                    <source srcset="images/wdd230-org-small.jpeg" media="(max-width: 480px)">
+                    <source srcset="images/wdd230-org-medium.jpeg" media="(min-width: 768px)">
+                    <img src="images/wdd230-org.jpg" alt="Test" srcset="images/wdd230-org.jpg 960w">
+                </picture>
+                <div class="herolabel">
+                    <p id="imageSizeLabel">small</p>
                 </div>
-                <section id="hero-msg">
+
+                <!-- <section id="hero-msg">
                     <div class='button-box'>
                         <a class='join' href="join.html">Join the Commerce</a>
                     </div>
-                </section>
+                </section> -->
             </div>
             <div class="general-information">
                 <div class="events">
@@ -107,6 +113,7 @@
         <script src="scripts/modifieddates.js"></script>
         <script src="scripts/hamburgermenu.js"></script>
         <script src="scripts/dark-mode.js"></script>
+        <script src="scripts/img-size.js"></script>
     </div>
 </body>
 
