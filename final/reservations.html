@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>Reservations</title>
+</head>
+
+<body>
+    <h3>High Today in Cozumel:<span id="max-temp"></span></h3>
+    <header>
+        <img src="" alt="">
+        <h1>~Scoots~</h1>
+        <button id="menu"></button>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="rentals.html">Rentals</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <hr>
+    <main>
+        <div class="rentalAgreement">
+            <section id="agreement">
+                <h3>Rental Agreement Information</h3>
+                <p>A $50 security deposit is required to confirm reservations.</p>
+                <p>A valid drivers license is required in hand at the time of rental.</p>
+                <p>No one under the age of 12 years of age are allowed to ride on the scooters.</p>
+                <p>Fuel charge is not included.</p>
+                <p>Unlimited mileage.</p>
+                <p>Liability insurance is included.</p>
+                <p>Damage insurance is available for purchase.</p>
+                <p>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</p>
+                <p>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</p>
+                <p>Rentals may be returned to either physical location.</p>
+            </section>
+        </div>
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>
+                    Personal Information
+                </legend>
+                <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label class="top">Home State / Country <input type="text" id="country" name="country" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="janedoe@gmail.com" id="email"
+                        required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Cruiseline <input type="text" name="cruiseline" placeholder="Carnival"></label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Reservation Information
+                </legend>
+                <label>Pick-up/Receive <input type="date" name="startDate" required></label>
+                <label>Drop-off <input type="date" name="endDate" required></label>
+                <label> Rental Vehical
+                    <select name="rental">
+                        <option value="">Please Select</option>
+                        <option value="software">Honda Metro Scooter</option>
+                        <option value="creative">Honda Dio Scooter</option>
+                        <option value="info">Honda PCX150 Scooter</option>
+                        <option value="data">Honda Pioneer ATV</option>
+                        <option value="construction">Jeep Wrangler - 4 door with a/c</option>
+                        <option value="manufacturing">Jeep Wrangler - 2 door</option>
+                    </select>
+                </label>
+                <label>Comments/Requests<textarea name="description" id="description" required
+                        placeholder="need and location of a drop-off request"></textarea></label>
+                <input type="hidden" name="timestamp" id="timestamp">
+            </fieldset>
+            <fieldset>
+                <legend>Submit</legend>
+                <input class="submitBtn" type="submit" value="Secure Reservation!">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024, Caio Sa, Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/weather.js"></script>
+
+</body>
+
+</html>

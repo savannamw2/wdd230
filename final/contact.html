@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <h3>High Today in Cozumel:<span id="max-temp"></span></h3>
+    <header>
+        <h1>~Scoots~</h1>
+        <button id="menu"></button>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="rentals.html">Rentals</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <hr>
+    <main>
+        <h3>Having Trouble deciding on what to see? Contact Us!</h3>
+        <div>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram"
+                    width="100px" height="100px"></a>
+            <p></p>
+        </div>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238932.55372623837!2d-87.24487977663776!3d20.656509358829975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e4323d22d4e61%3A0xe8c10b783bab4adc!2sPlaya%20del%20Carmen%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sbr!4v1712101872561!5m2!1sen!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7475.450733098806!2d-86.97732827066643!3d20.47647007350451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sbr!4v1712101835475!5m2!1sen!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <h3>Check our Instagram reels for daily spots to visit!</h3>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>
+                    Contact Us:
+                </legend>
+                <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="janedoe@gmail.com" id="email"
+                        required></label>
+                <label>Description<textarea name="description" id="description"></textarea></label>
+                <input type="submit" name="end">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p id="copyright-info">&copy; <span id="currentYear"> </span> | Savanna Whittaker | USA</p>
+        <p id="lastModified">Last modified: <span id="modifiedDate"></span></p>
+    </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/lastModified.js"></script>
+
+
+</body>
+
+</html>

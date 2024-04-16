@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/smaller.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>Rentals Page</title>
+</head>
+
+<body>
+
+    <h3>High Today in Cozumel:<span id="max-temp"></span></h3>
+    <header>
+        <h1>~Scoots~</h1>
+        <button id="menu"></button>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="rentals.html">Rentals</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <hr>
+    <main>
+        <p> Here we have our Pricng and Rentals Available to fit all your needs!</p>
+        <p> Below you will find pictures included to help visualize in what you would like to reserve. </p>
+    </main>
+
+    <section id="section-table">
+        <table id="table-in-rental" border="1" cellpadding="5">
+
+            <tr>
+                <td colspan="6"><span><strong>Rental Pricing</strong></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="2"><strong>Reservation</strong></td>
+                <td colspan="2"><strong>Walk-In</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Rental Type</strong></td>
+                <td><strong>Max. Persons</strong></td>
+                <td><strong>Half Day<br />(3 hrs)</strong></td>
+                <td><strong>Full Day</strong></td>
+                <td><strong>Half Day<br />(3 hrs)</strong></td>
+                <td><strong>Full Day</strong></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="imgs">
+        <img src="images/honda-metro Background Removed.png" alt="Honda Metro" loading="lazy
+        ">
+        <img src="images/honda-dio Background Removed.png" alt="Honda Dio" loading="lazy
+        ">
+        <img src="images/honda-pioneer.avif" alt="Honda Pioneer" loading="lazy
+        ">
+        <img src="images/Honda-PCX150 Background Removed.png" alt="Honda PCX150" loading="lazy
+                ">
+        <img src="images/jeep-wrangler.png" alt="Jeep Wrangler 4-Door w/ AC" loading="lazy
+                ">
+        <img src="images/wrangler-2door.avif" alt="Jeep Wrangler 2-Door" loading="lazy
+                ">
+    </section>
+
+    <footer>
+        <p id="copyright-info">&copy; <span id="currentYear"> </span> | Savanna Whittaker | USA</p>
+        <p id="lastModified">Last modified: <span id="modifiedDate"></span></p>
+    </footer>
+    <script src="scripts/rentals.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/lastModified.js"></script>
+</body>
+
+</html>
